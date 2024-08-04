@@ -44,8 +44,46 @@
         Important: The position of the parent element should be set as a relative value. If not, the child element will be offset relative to the page.</p>
       <p><b>Fixed Position</b> keeps an element in the same place even when the page is scrolled. To position the element, we use top, right, bottom, and left properties.
         The fixed positioning offsets elements according to the browser page. It is like absolute positioning, but the parent element is the viewport (browser page.)</p>
-       
+        <p></p>
+        <p>The following table offers a guideline on when to use these type of positionings:</p>
 
+        <figure class="bordered-table">
+        <table>
+          <tbody>
+            <tr>
+              <td><b>Criteria</b></td>
+              <td><b>Relative</b></td>
+              <td><b>Absolute</b></td>
+              <td><b>Fixed</b></td>
+            </tr>
+            <tr>
+              <td><b>Method</b></td>
+              <td>Offsets elements against their original position.</td>
+              <td>Offsets elements against the nearest parent element with a position</td>
+              <td>Offsets elements against the viewport.</td>
+            </tr>
+            <tr>
+              <td><b>Elements required&nbsp;</b></td>
+              <td>Only the box elements.</td>
+              <td>Parents and box elements.</td>
+              <td>Box elements.</td>
+            </tr>
+            <tr>
+              <td><b>Affects document flow?</b></td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td><b>Reference point&nbsp;</b></td>
+              <td>Original position.</td>
+              <td>Parent position.</td>
+              <td>Viewport.</td>
+            </tr>
+          </tbody>
+        </table>
+        </figure>
+        <p> <a href="https://www.geeksforgeeks.org/difference-between-relative-and-absolute-position-in-css/">Source</a></p>
     </div>
   </body>
 

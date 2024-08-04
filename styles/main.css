@@ -43,6 +43,7 @@ body {
   right: 1%;
   margin-left: 20px;
   box-sizing: border-box;
+  font-size: 15px;
 }
 
 .footer {
@@ -80,6 +81,22 @@ body {
   bottom: 3%;
 }
 
+.bordered-table {
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 5px;
+}
+
+.bordered-table td,
+.bordered-table th {
+  border: 1px solid #000000;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.bordered-table th {
+  background-color: #f2f2f2;
+}
 /* phones */
 
 @media (max-width: 600px) {
