@@ -15,31 +15,34 @@ body {
   line-height: 0.1;
   padding-left: 35px;
   position: absolute;
-  width: calc(99% - 20px);
+  width: calc(100% - 0%);
   left: 0%;
   top: 1%;
+  box-sizing: border-box;
 }
 
 .menu {
   position: absolute;
-  top: 20%;
+  top: 19%;
   bottom: 10%;
-  width: 200px;
+  width: 15%;
   padding: 10px;
   background-color: #fafafa;
-  left: 10px;
+  left: 1%;
+  box-sizing: border-box;
 }
 
 .content {
   position: absolute;
-  top: 20%;
+  top: 19%;
   bottom: 10%;
-  width: 71%;
+  width: 75%;
   padding: 10px;
   background-color: #fafafa;
-  left: 220px;
-  right: 100px;
+  left: 16%;
+  right: 1%;
   margin-left: 20px;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -49,11 +52,11 @@ body {
   font-size: 12px;
   padding: 10px;
   position: absolute;
-  width: calc(99% - 20px);
-  left: 0%;
-  right: 0%;
+  width: calc(100% - 0%);
+
   top: 95%;
   bottom: 1%;
+  box-sizing: border-box;
 }
 
 .Titles {
@@ -64,12 +67,79 @@ body {
 
 .links {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
   text-align: left;
+  font-size: 15px;
 }
 
 .img1 {
   position: absolute;
-  height: 180px;
-  right: 3%;
-  bottom: 96%;
+  height: 350px;
+  right: 50%;
+  bottom: 3%;
+}
+
+/* phones */
+
+@media (max-width: 600px) {
+  .menu,
+  .content {
+    float: none;
+    top: 24%;
+    width: 80%; /* Full width for better readability on small screens */
+    margin-left: 0; /* Remove the margin to fit the width */
+    font-size: 0.5rem;
+  }
+
+  .header,
+  .footer {
+    text-align: center; /* Center align text for header and footer on small screens */
+  }
+
+  .Titles {
+    font-size: 12px;
+  }
+  .links {
+    font-size: 10px;
+  }
+
+  .img1 {
+    position: absolute;
+    height: 60px;
+    right: 3%;
+    bottom: 6%;
+  }
+}
+
+/* tablets */
+
+@media (max-width: 900px) {
+  .menu,
+  .content {
+    float: none;
+    top: 20%;
+    width: 80%;
+    margin-left: 0;
+    font-size: 0.7rem;
+  }
+
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .Titles {
+    font-size: 14px;
+  }
+  .links {
+    font-size: 12px;
+  }
+
+  .img1 {
+    position: absolute;
+    height: 280px;
+    right: 3%;
+    bottom: 6%;
+  }
 }
