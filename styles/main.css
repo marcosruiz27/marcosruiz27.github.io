@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #1f4c90;
   color: rgb(36, 24, 24);
-  font-family: Arial, sans-serif;
+  font-family: verdana, sans-serif;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -75,6 +75,7 @@ body {
   box-sizing: border-box;
   font-size: 12px;
   margin-top: 10px;
+  border-radius: 20px;
 }
 
 .title1 {
@@ -111,6 +112,8 @@ body {
   border-collapse: collapse;
   width: 80%;
   font-size: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bordered-table td,
@@ -122,6 +125,20 @@ body {
 
 .bordered-table th {
   background-color: #f2f2f2;
+}
+
+.code-block {
+  background-color: #f5f4f4;
+  border: 1px solid #e6e8f4;
+  border-radius: 4px;
+  padding: 10px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.code-snippet {
+  font-family: 'Courier New', Courier, monospace;
+  color: #d63384;
 }
 
 /* This is for elements in the FOOTER section */
