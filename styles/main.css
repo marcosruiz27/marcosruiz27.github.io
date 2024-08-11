@@ -12,38 +12,34 @@ body {
   color: #ffffff;
   font-family: impact;
   font-size: 35px;
-  line-height: 0.1;
   padding-left: 35px;
-  position: absolute;
-  width: calc(100% - 0%);
-  left: 0%;
-  top: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .menu {
-  position: absolute;
-  top: 19%;
-  bottom: 10%;
-  width: 15%;
+  width: 100%;
   padding: 10px;
   background-color: #fafafa;
-  left: 1%;
   box-sizing: border-box;
 }
 
 .content {
-  position: absolute;
-  top: 19%;
-  bottom: 10%;
-  width: 75%;
+  width: 100%;
   padding: 10px;
   background-color: #fafafa;
-  left: 16%;
-  right: 1%;
-  margin-left: 20px;
   box-sizing: border-box;
   font-size: 15px;
+  margin-top: 10px; /* Adding margin to separate from the menu */
 }
 
 .footer {
@@ -52,12 +48,9 @@ body {
   font-family: verdana;
   font-size: 12px;
   padding: 10px;
-  position: absolute;
-  width: calc(100% - 0%);
-
-  top: 95%;
-  bottom: 1%;
+  width: 100%;
   box-sizing: border-box;
+  margin-top: 20px; /* Adding margin to separate from the content */
 }
 
 .Titles {
@@ -97,26 +90,24 @@ body {
 .bordered-table th {
   background-color: #f2f2f2;
 }
-/* phones */
 
+/* phones */
 @media (max-width: 600px) {
   .menu,
   .content {
-    float: none;
-    top: 24%;
-    width: 80%; /* Full width for better readability on small screens */
-    margin-left: 0; /* Remove the margin to fit the width */
+    width: 100%; /* Full width for better readability */
     font-size: 0.5rem;
   }
 
   .header,
   .footer {
-    text-align: center; /* Center align text for header and footer on small screens */
+    text-align: center;
   }
 
   .Titles {
     font-size: 12px;
   }
+
   .links {
     font-size: 10px;
   }
@@ -130,14 +121,10 @@ body {
 }
 
 /* tablets */
-
 @media (max-width: 900px) {
   .menu,
   .content {
-    float: none;
-    top: 20%;
-    width: 80%;
-    margin-left: 0;
+    width: 100%; /* Full width for better readability */
     font-size: 0.7rem;
   }
 
@@ -149,6 +136,7 @@ body {
   .Titles {
     font-size: 14px;
   }
+
   .links {
     font-size: 12px;
   }
