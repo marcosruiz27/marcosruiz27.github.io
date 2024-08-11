@@ -1,63 +1,42 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../styles/main.css" />
-    <title>Javascript</title>
+    <title>Technical Blog - Javascript</title>
+    
     <div class="header">
-      <p>EL BLOG</p>
-      <p>DE</p>
-      <p>MARCOS</p>
+      <p class="header-logo">EL BLOG DE MARCOS</p>
     </div>
   </head>
 
   <body>
     <div class="menu">
-      <h1 class="Titles">Links</h1>
+      <h1 class="titles"></h1>
 
       <ul class="links">
-        <li> <a
-          href="https://marcosruiz27.github.io/index.html"
-          >HOME</a>
-        
-        </li>
-        <li>
-          <a
-            href="https://marcosruiz27.github.io/blog/te-houtaewa-template.html"
-            >Te Houtaewa</a>
-        </li>
-        <li><a
-          href="https://marcosruiz27.github.io/blog/html-css.html"
-          >Technical Blog - CSS Concepts</a></li>
-          <li>
-            <a
-              href="https://marcosruiz27.github.io/blog/identity-values.html"
-              >Identity Values</a>
-          </li>
-          <li>
-            <a
-              href="https://marcosruiz27.github.io/blog/learning-plan.html"
-              >Learning Plan</a>
-          </li>
-          <li>
-            <a
-              href="https://marcosruiz27.github.io/blog/javascript-dom.html"
-              >Technical Blog - Javascript</a>
-          </li>
+        <li><a href="https://marcosruiz27.github.io/index.html">HOME</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/html-css.html">Technical Blog - CSS Concepts</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/identity-values.html">Identity Values</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/learning-plan.html">Learning Plan</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/javascript-dom.html">Technical Blog - Javascript</a></li>
+        <li><a href="https://marcosruiz27.github.io/blog/emotional-intelligence.html">Emotional Intelligence</a></li>
       </ul>
     </div>
-    <div class="content">
-      <h1 class="Titles">Javascript</h1>
+    <div class="content" class="text4content">
 
-  
-      <h3 style="font-size: 14px;">Javascript Analogy</h3>
-      <p style="font-size: 12px;">
+      <h1 class="title1">Technical Blog - Javascript</h1>
+
+      <h3 class="title3">Javascript Analogy</h3>
+      <p >
         In the final reflections of Sprint Two I compared a website to a house. You use HTML for the structure of the house and then CSS to decorate the rooms and exterior.
         To introduce the concept of Javscript into this analogy, we have to think of this house as a smart house, one that performs complex functions; like turning on lights automatically if it's dark outside, adjusting the temperature depending on the season, checking what produce need to be restocked in the fridge, reminding people of appointments when they are having breakfast. 
         Javascript is connected to both HTML and CSS in order to deliver these functions. All these functions that make the house smart and interactive, would be thanks to Javascript. As Javascript makes websites smart and interactive. 
       </p>
-      <h3 style="font-size: 14px;">Control Flow and Loops</h3>
-        <p style="font-size: 12px;">
-          Control Flow is the normal order in which a series of actions are performed to achieve a purpose. Despite having an usual order, this might be altered depending on the result of some actions. For example to start my working day this would be the control flow:
+      <h3 class="title3">Control Flow and Loops</h3>
+        <p >
+          <b>Control Flow</b> is the normal order in which a series of actions are performed to achieve a purpose. Despite having an usual order, this might be altered depending on the result of some actions. For example to start my working day this would be the control flow:
           
           <ol>
             <li>Turn on the computer</li>
@@ -65,10 +44,10 @@
             <li>Open Slack</li>
             <li>Say "Good morning" to my team</li>
           </ol>
-          <p style="font-size: 12px;"></p>
-          <p style="font-size: 12px;"> However, if after completing the action number 2, the message is "Incorrect password" the control flow would be the following:
+          <p ></p>
+          <p > However, if after completing the action number 2, the message is "Incorrect password" the control flow would be the following:
 
-          <p style="font-size: 12px;"></p>
+          <p ></p>
             </p>
             <ol>
               <li>Turn on the computer</li>
@@ -78,48 +57,79 @@
               <li>Say "Good morning" to my team</li>
             </ol>
           </p>
-            <p style="font-size: 12px;"></p>
-            <p style="font-size: 12px;">
+            <p ></p>
+            <p >
 
-              Loop is a series of actions that we repeat until a condition is met. For example, when we are cooking we add salt and condiments until food tastes the way we like. If it's not good enough we will continue adding salt and spices until it tastes good. The actions would be addidng salt and condiments and the condition would be that food tastes like we like.
+              A <b>Loop</b> is a series of actions that we repeat until a condition is met. For example, when we are cooking we add salt and condiments until food tastes the way we like. If it's not good enough we will continue adding salt and spices until it tastes good. The actions would be addidng salt and condiments and the condition would be that food tastes like we like.
 
             </p>
 
-      <h3 style="font-size: 14px;">DOM</h3>
-      <p style="font-size: 12px;">
-        DOM stands for Document Object Model. It is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. Having said that, if we go back to the smart house analogy, we can think of DOM as a document where information about the structure, style and functions of the house exist. It contains every single detail of the house and it is accessible so we can make adjustments that will be reflected in the house.
-        For example, let's suppose we have a table with id "table77" in a website. Users are complaining saying that the table is hard to read due to the size and type of fonts.
+      <h3 class="title3">DOM</h3>
+      <p >
+        <b>DOM</b> stands for Document Object Model. It is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. Having said that, if we go back to the smart house analogy, we can think of DOM as a document where information about the structure, style and functions of the house exist. It contains every single detail of the house and it is accessible so we can make adjustments that will be reflected in the house.
+        For example, let's suppose we have a table with id <b>table77</b> on a website. Users are complaining saying that the table is hard to read due to the size and type of fonts.
 
-        I can access the DOM via browser console and using "document.getElementById" I can access the table and try different font sizes and types, until I see one that is accepatble to most users.
+        I can access the DOM via browser console and using <b>document.getElementById</b> I can access the table and try different font sizes and types, until I see one that is accepatble to most users.
+        <pre class="code-block"><code class="code-snippet">
+          <b>document.getElementById('table77')</b>
+          <p></p>
+          <b>.style.fontFamily = 'Arial'</b>
+          <p></p>
+          <b>.style.fontSize = '18px'</b>
 
+        </code></pre>
       </p>
 
-      <h3 style="font-size: 14px;">Difference Accessing Arrays and Objects</h3>
-      <p style="font-size: 12px;">
+      <h3 class="title3">Difference Accessing Arrays and Objects</h3>
+      <p >
         Both elements are useful to store data, but they are used in different ways and accessed in different ways.
-        Arrays are ordered collections of elements, typically accessed using an index (which is a numerical position).
+        <b>Arrays</b> are ordered collections of elements, typically accessed using an index (which is a numerical position).
         <p></p>
-        For example: <b>let names = ['marcos', 'albert', 'simon'];</b>
+        For example:
+        <p></p>
+        
+
+          <pre class="code-block"><code class="code-snippet">
+            <b>let names = ['marcos', 'albert', 'simon'];</b>
+          </code></pre>
         <p></p>
         <p> The index is zero-based, meaning the first element is at index 0 </p>
         <p></p>
-        <p> The output of <b>console.log(names[2]);</b>  would be <b>simon</b>.</p>
-        <p>Objects are collections of key-value pairs, where each key (or property) is associated with a value.</p>
+        <p> The output of the following line of code would be <b>simon</b>.</p> 
         <p></p>
-        For example: <b>let student = {name:"Marcos", age: 35, height: "170 cm"}</b>
-        <p> The output of <b>console.log(person.age);</b>  would be <b>35</b>.</p>
+          <pre class="code-block"><code class="code-snippet">
+            <b>console.log(names[2]);</b>
+          </code></pre>
+        
+        
+        <p><b>Objects</b> are collections of key-value pairs, where each key (or property) is associated with a value.</p>
+        <p></p>
+        For example:
+        <p></p>
+        
 
+          <pre class="code-block"><code class="code-snippet">
+            <b>let student = {name:"Marcos", age: 35, height: "172 cm"}</b>
+          </code></pre>
+        
+
+        <p> The output of the following line of code would be <b>35</b>.</p> 
+        <p></p>
+          <pre class="code-block"><code class="code-snippet">
+            <b>console.log(student.age);</b>
+          </code></pre>
 
       </p>
       
-      <h3 style="font-size: 14px;">Functions</h3>
-      <p style="font-size: 12px;">
-        Functions are pieces of code that are designed to perform a task like storing data or make a calculations. They normally take input, then process it based on what we ask them to do and then provide and output.
+      <h3 class="title3">Functions</h3>
+      <p >
+        <b>Functions</b> are pieces of code that are designed to perform a task like storing data or make a calculations. They normally take input, then process it based on what we ask them to do and then provide and output.
         Functions are really helpful because we can just write it once and then use it many times in the code. They also allow modularity in the code, which means we can use them to break down complex code into smaller parts, making it easy to manage, troubleshoot and test.
 
       </p>
-     
 
+
+        
     </div>
   </body>
 
